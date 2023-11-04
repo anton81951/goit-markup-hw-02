@@ -1,0 +1,59 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #2E2F42;
+    
+  }
+a{
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.logo-first-part{
+    color: #4D5AE5;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 0.54;
+    word-wrap: break-word; 
+}
+.logo-second-part{
+    color: inherit;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 0.54;
+    word-wrap: break-word; 
+}
+.title-header {
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12;
+    word-wrap: break-word; 
+}
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 0.72;
+    word-wrap: break-word; 
+}
+.header-in-section{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.40;
+    word-wrap: break-word;
+}
+.descriprion-in-section{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
