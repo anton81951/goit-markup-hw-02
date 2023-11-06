@@ -13,7 +13,7 @@ ul {
     list-style-type: none;
 }
 
-/* two parts of the logo in header and footer */
+/* logo in header and footer */
 
 .logo-general-settings {
     color: #4d5ae5;
@@ -119,8 +119,7 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .description-in-footer {
@@ -129,7 +128,6 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-transform: none;
 
 }
 
@@ -138,7 +136,7 @@ ul {
 }
 
 /* button */
-.button-order{
+.button-fororder{
     font-family: "Roboto", sans-serif;
     color: white;
     background-color: #4D5AE5;
@@ -149,8 +147,8 @@ ul {
     cursor: pointer;
 }
 
-.button-order:hover,
-.button-order:focus {
+.button-fororder:hover,
+.button-fororder:focus {
     color: white;
     background-color: #404BBF;
     font-size: 16px;
