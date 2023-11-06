@@ -18,7 +18,7 @@ ul {
 .logo-general-settings {
     color: #4d5ae5;
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.17;
@@ -28,12 +28,18 @@ ul {
 
 .logo-second-part{
     color: #2E2F42;
+    font-family: "Raleway", sans-serif;
 }
 .logo-second-part-footer {
     color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
 }
 
 /* menu-text */
+
+.adress-fixing{
+    font-style: normal;
+}
 .text-for-contact {
     color: #434455;
     font-size: 16px;
@@ -41,7 +47,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.32px;
     word-wrap: break-word;
-    font-style: normal;
 }
 
 .text-for-contact:hover,
@@ -90,15 +95,18 @@ ul {
 }
 
 .section-title{
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.72px;
     word-wrap: break-word;
+    text-align: center
 }
 
 .header-in-section{
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -124,16 +132,17 @@ ul {
     letter-spacing: 0.02em
 }
 
-.description-in-footer{
+.description-in-footer {
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
-    word-wrap: break-word; 
+    word-wrap: break-word;
+    letter-spacing: 0.02em 
 }
 
-.no-display{
+.no-display {
     display: none;
 }
 
@@ -147,7 +156,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.64px;
     word-wrap: break-word;
-    align-self: center;
     cursor: pointer;
 }
 
@@ -160,7 +168,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.64px;
     word-wrap: break-word;
-    text-align: center;
     cursor: pointer;
 }
 
