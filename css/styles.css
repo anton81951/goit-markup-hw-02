@@ -44,7 +44,7 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .text-for-contact:hover,
@@ -57,7 +57,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .text-in-menu:hover,
@@ -66,7 +66,7 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .text-in-menu:active{
@@ -74,7 +74,7 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     text-decoration: underline; 
 }
 
@@ -84,7 +84,7 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -94,7 +94,7 @@ ul {
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-align: center
 }
 
@@ -103,7 +103,7 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.40px;
+    letter-spacing: 0.02em;
 }
 
 .descriprion-in-section{
@@ -111,7 +111,7 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em 
+    letter-spacing: 0.02em; 
 }
 
 .description-for-team {
@@ -138,7 +138,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -149,7 +149,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
