@@ -1,10 +1,11 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
     
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -13,36 +14,23 @@ ul {
 }
 
 /* two parts of the logo in header and footer */
-.logo-first-part{
-    color: #4D5AE5;
+
+.logo-general-settings {
+    color: #4d5ae5;
     font-size: 18px;
     font-family: Raleway;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 21px;
-    letter-spacing: 0.54;
-    word-wrap: break-word; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    word-wrap: break-word;
 }
 
 .logo-second-part{
-    color: inherit;
-    font-size: 18px;
-    font-family: Raleway;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 21px;
-    letter-spacing: 0.54;
-    word-wrap: break-word; 
+    color: #2E2F42;
 }
-.logo-second-part-footer{
+.logo-second-part-footer {
     color: #F4F4FD;
-    font-size: 18px;
-    font-family: Raleway;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 21px;
-    letter-spacing: 0.54;
-    word-wrap: break-word;
 }
 
 /* menu-text */
@@ -53,19 +41,16 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.32px;
     word-wrap: break-word;
+    font-style: normal;
 }
 
 .text-for-contact:hover,
 .text-for-contact:focus {
     color: #404BBF;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    word-wrap: break-word;
 }
 
-.text-in-menu, .text-for-studio {
+.text-in-menu {
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -73,8 +58,8 @@ ul {
     word-wrap: break-word; 
 }
 
-.text-in-menu:hover, 
-.text-for-studio:hover {
+.text-in-menu:hover,
+.text-in-menu:focus {
     color: #404BBF;
     font-size: 16px;
     font-weight: 400;
@@ -83,7 +68,7 @@ ul {
     word-wrap: break-word;
 }
 
-.text-for-studio:active{
+.text-in-menu:active{
     color: #404BBF;
     font-size: 16px;
     font-weight: 400;
@@ -101,7 +86,6 @@ ul {
     line-height: 1.07;
     letter-spacing: 1.12px;
     word-wrap: break-word;
-    text-align: center;
     
 }
 
@@ -112,7 +96,6 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.72px;
     word-wrap: break-word;
-    text-align: center;
 }
 
 .header-in-section{
@@ -127,16 +110,18 @@ ul {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5; 
+    line-height: 1.5;
+    letter-spacing: 0.02em 
 }
 
 .description-for-team {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     word-wrap: break-word;
+    letter-spacing: 0.02em
 }
 
 .description-in-footer{
@@ -154,6 +139,7 @@ ul {
 
 /* button */
 .button-order{
+    font-family: "Roboto", sans-serif;
     color: white;
     background-color: #4D5AE5;
     font-size: 16px;
@@ -165,7 +151,8 @@ ul {
     cursor: pointer;
 }
 
-.button-order:hover {
+.button-order:hover,
+.button-order:focus {
     color: white;
     background-color: #404BBF;
     font-size: 16px;
@@ -186,4 +173,8 @@ ul {
 }
 .background-footer{
     background-color:  #2E2F42;
+}
+
+.background-white {
+    background-color: #FFFFFF;
 }
