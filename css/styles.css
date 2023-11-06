@@ -23,7 +23,6 @@ ul {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    word-wrap: break-word;
 }
 
 .logo-second-part{
@@ -46,7 +45,6 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    word-wrap: break-word;
 }
 
 .text-for-contact:hover,
@@ -60,7 +58,6 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    word-wrap: break-word; 
 }
 
 .text-in-menu:hover,
@@ -70,7 +67,6 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    word-wrap: break-word;
 }
 
 .text-in-menu:active{
@@ -79,7 +75,6 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    word-wrap: break-word;
     text-decoration: underline; 
 }
 
@@ -90,8 +85,7 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    word-wrap: break-word;
-    
+    text-align: center;
 }
 
 .section-title{
@@ -101,7 +95,6 @@ ul {
     text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.72px;
-    word-wrap: break-word;
     text-align: center
 }
 
@@ -111,7 +104,6 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.40px;
-    word-wrap: break-word;
 }
 
 .descriprion-in-section{
@@ -128,7 +120,6 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    word-wrap: break-word;
     letter-spacing: 0.02em
 }
 
@@ -137,9 +128,9 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
-    word-wrap: break-word;
-    letter-spacing: 0.02em 
+    letter-spacing: 0.02em;
+    text-transform: none;
+
 }
 
 .no-display {
@@ -155,7 +146,6 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    word-wrap: break-word;
     cursor: pointer;
 }
 
@@ -167,7 +157,6 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    word-wrap: break-word;
     cursor: pointer;
 }
 
